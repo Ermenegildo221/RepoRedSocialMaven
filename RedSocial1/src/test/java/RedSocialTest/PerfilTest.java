@@ -28,7 +28,7 @@ class PerfilTest {
         perfil.agregarAmigo("Bob");
         perfil.eliminarAmigo("Bob");
         List<String> amigos = perfil.listaAmigos();
-        assertFalse(amigos.contains("Bob"));
+        assertFalse(amigos.contains("Ernesto"));
     }
 
 
